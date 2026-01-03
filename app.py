@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
-
-load_dotenv()
 
 # LLMからの回答を取得する関数
 def get_llm_response(input_text, expert_type):
