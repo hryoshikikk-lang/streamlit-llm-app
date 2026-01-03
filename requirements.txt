@@ -42,5 +42,6 @@ urllib3==2.6.2
 watchdog==6.0.0
 streamlit
 langchain-openai
-langchain-core
+langchain
 python-dotenv
+openai
